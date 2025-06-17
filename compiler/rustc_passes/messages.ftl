@@ -591,6 +591,9 @@ passes_repr_align_should_be_align =
     `#[repr(align(...))]` is not supported on {$item} items
     .help = use `#[align(...)]` instead
 
+passes_repr_align_greater_than_coff_max =
+    alignment must not be greater than 8192 bytes for COFF targets
+
 passes_repr_conflicting =
     conflicting representation hints
 
